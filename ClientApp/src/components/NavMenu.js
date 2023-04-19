@@ -24,20 +24,26 @@ export class NavMenu extends Component {
   render() {
     return (
       <header>
-        <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" container light>
-          <NavbarBrand tag={Link} to="/">Hospital_System</NavbarBrand>
+            <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" container light>
+                <NavbarBrand tag={Link} to="/">
+                    <div style={{ maxWidth: "350px" }}>
+                    <img src="/images/logo-no-background.png" alt='Logo' />
+                </div></NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
             <ul className="navbar-nav flex-grow">
               <NavItem>
-                <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
+                   <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
+                <NavLink tag={Link} className="text-dark" to="/counter">Sherbimet</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
+                <NavLink tag={Link} className="text-dark" to="/fetch-data">About Us</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink tag={Link} className="text-dark" to="/fetch-data">Contact Us</NavLink>
+               </NavItem>
             </ul>
           </Collapse>
         </Navbar>
