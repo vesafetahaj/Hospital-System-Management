@@ -1,6 +1,7 @@
 import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
 import { Home } from "./components/Home";
+import { AboutUs } from './components/aboutus';
 
 const AppRoutes = [
   {
@@ -13,8 +14,12 @@ const AppRoutes = [
   },
   {
     path: '/fetch-data',
-    element: <FetchData />
-  }
+      element: <FetchData />
+    },
+    {
+      path: "/aboutus",
+      element : < AboutUs />
+    }
 ];
 
 export default AppRoutes;
