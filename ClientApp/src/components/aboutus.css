@@ -1,3 +1,120 @@
-﻿body {
-    background-color: white;
+﻿#aboutusvid {
+    opacity: 1;
+    width: 1353px;
+    margin-left: -120px;
+    margin-top: -15px;
+    height: 120%;
 }
+@font-face {
+    font-family: 'sequel 85';
+    src: url('Sequel100Black-85.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.aboutus h2 {
+    font-family: 'sequel 85';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color:white;
+    text-shadow:1px 1px 6px black;
+}
+.aboutus img {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width:90px;
+    cursor:pointer;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    width: 1355px;
+    margin-left: -120px;
+    margin-top: 60px;
+    
+}
+.card-aboutus{
+    text-align: center;
+    padding: 50px;
+    margin-top: 5px;
+    border: none;
+    width: 40%;
+    border-radius: none;
+    height: 600px;
+
+}
+.card-aboutus img{
+    width: 90px;
+    margin-left: 140px;
+    
+}
+.card-aboutus h3{
+    font-size: 18px; 
+    font-family: "helvetica";
+    font-weight: 500; 
+    margin-top: 80px; 
+}
+.card-aboutus h2{
+    font-family: "sequel 85";
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#doctor h1{
+    font-family: "sequel 85";
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 26px;
+    
+}
+#doctor-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.doctor-card{
+    padding: 30px;
+}
+.doctor-card img{
+    width: 90px;
+}
+.doctor-card h3{
+    padding-left: 100px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+#gallery #background{
+    width: 1350px;
+    margin-left: -120px;
+    margin-top: -23px;
+}
+
+#gallery {
+    position: relative;
+  }
+  
+  #gallery-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  
+  #gallery-img img {
+    position: relative;
+    display: block;
+    width: 26%;
+    margin-top: 60px;
+    padding-left: 10px;
+    margin-left: 50px;
+  }
+  
