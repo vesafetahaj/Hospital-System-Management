@@ -1,0 +1,37 @@
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\spa.proxy.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\appsettings.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Hospital System.staticwebassets.runtime.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\package-lock.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\package.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Hospital System.exe
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Hospital System.deps.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Hospital System.runtimeconfig.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Hospital System.dll
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Hospital System.pdb
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\spa.proxy.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.AssemblyInfo.cs
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.RazorAssemblyInfo.cache
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.RazorAssemblyInfo.cs
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\staticwebassets\msbuild.Hospital System.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\staticwebassets\msbuild.build.Hospital System.props
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Hospital System.props
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Hospital System.props
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\scopedcss\bundle\Hospital System.styles.css
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\scopedcss\projectbundle\Hospital System.bundle.scp.css
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.csproj.CopyComplete
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.dll
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\refint\Hospital System.dll
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.pdb
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\Hospital System.genruntimeconfig.cache
+C:\Users\hp\source\repos\Hospital System\Hospital System\obj\Debug\net6.0\ref\Hospital System.dll
