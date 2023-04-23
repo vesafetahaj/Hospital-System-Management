@@ -1,3 +1,84 @@
-﻿body {
-    background-color: white;
+﻿#aboutusvid {
+    opacity: 1;
+    width: 1355px;
+    margin-left: -120px;
+    margin-top: -15px;
+    height: 100%;
 }
+@font-face {
+    font-family: 'sequel 85';
+    src: url('Sequel100Black-85.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.aboutus h2 {
+    font-family: 'sequel 85';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color:white;
+    text-shadow:1px 1px 6px black;
+}
+.aboutus img {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width:90px;
+    cursor:pointer;
+}
+
+.container-aboutus {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 1355px;
+    height: 100px;
+    margin-left: -120px;
+    margin-top: -16px;
+    height:110px;
+}
+.overlay h2{
+    font-size:15px;
+    font-family:'Segoe UI';
+}
+.container-aboutus:hover .overlay {
+    opacity: 1;
+}
+
+.vision {
+    display: block;
+    width: 1355px;
+    height: 140px;
+    background-color:#5dbb63;
+    margin-left:-120px;
+    margin-top:-16px;
+}
+
+.vision h1{
+    font-family:'sequel 85';
+    color:white;
+    padding-left:50px;
+    letter-spacing:10px;
+    padding-top:20px;
+}
+
+
