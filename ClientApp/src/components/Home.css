@@ -1,15 +1,17 @@
 ﻿body {
     background-color: white;
- 
+    height:100vh;
+    width:100%;
 }
 video {
     margin-top:-1.2%;
-    width: 115%;
+    width: 117%;
     height: 50rem;
     z-index: -1;
     filter: brightness(60%);
     opacity: 0.7;
     object-fit: fill;
+    padding:0px;
 }
 
 .home-container {
@@ -55,42 +57,40 @@ span {
 
 .body-card {
     position: absolute;
-    margin-top: 51.63%;
-    margin-left:-7%;
-
+    margin-top: 2.05%;
+    width:100%;
+    margin-left:-7.14%;
 }
-.container {
+.container-home {
     display: flex;
     flex-wrap: wrap;
-   justify-content:space-between;
-   padding:0px;
+    justify-content: ;
+    
 }
 
-.card {
+.card-home {
     position: relative;
-   margin-left:0;
-   margin-right:-15.5%;
-  
-   padding:0%;
-    width: 370px;
-    height: 390px;
+    padding:0%;
+
+    width: 378px;
+    height: 400px;
     transition: 0.3s ease-out;
 }
 
-.card .imgbox{
+.card-home .imgbox{
     position:relative;
   
     width:100%;
     height:100%;
 }
-.card .imgbox img{
+.card-home .imgbox img{
     width:100%;
-    height:80%;
+    height:100%;
 
     display:block;
     transition:0.5s;
 }
-    .card .content {
+    .card-home .content {
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -100,9 +100,9 @@ span {
         transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
         box-sizing: border-box;
         overflow: hidden;
-        color: white;
+        color: black;
     }
-    .card:hover .content{
+    .card-home:hover .content{
         width:100%;
         height:75%;
         left:0;
@@ -119,7 +119,7 @@ span {
         text-align:justify;
       
     }
-.card:hover .content p{
+.card-home:hover .content p{
     transform:translateY(0);
    
 }
@@ -127,6 +127,6 @@ span {
 .content h2{
     text-align:center;
 }
-.card:hover{
+.card-home:hover{
     box-shadow: 0 0 5em rgba(0,0,0,0.4);
 }
