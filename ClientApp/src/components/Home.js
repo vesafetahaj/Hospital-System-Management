@@ -14,8 +14,8 @@ export class Home extends Component {
               
               </div>
               <div className='body-card'>
-              <div className='container'>
-                  <div className='card'>
+              <div className='container-home'>
+                  <div className='card-home'>
                       <div className='imgbox'>
                           <img src="laboratoret.jpg"/>
                       </div>
@@ -24,7 +24,7 @@ export class Home extends Component {
                               <p>Our laboratory equipped with all equipment for biochemical analysis which enables you to perform all biochemical analyzes needed in one place.</p>
                       </div>
                   </div>
-                      <div className='card'>
+                      <div className='card-home'>
                           <div className='imgbox'>
                               <img src="rezonance.jpg" />
                           </div>
@@ -33,7 +33,7 @@ export class Home extends Component {
                               <p>Full Body Health Checkup Using Quantum Resonance Magnetic Body Health Analyzer Machine to analyze your entire body</p>
                           </div>
                       </div>
-                      <div className='card'>
+                      <div className='card-home'>
                           <div className='imgbox'>
                               <img src="dentistry.jpg" />
                           </div>
@@ -42,7 +42,7 @@ export class Home extends Component {
                               <p>Dental Care of SunRiseCare Hospital is your home for affordable dentistry and exceptional service in Prishtine, Kosove.</p>
                           </div>
                       </div>
-                      <div className='card'>
+                      <div className='card-home'>
                           <div className='imgbox'>
                               <img src="oftamologu.jpg" />
                           </div>
