@@ -1,12 +1,16 @@
 ﻿body {
     background-color: white;
+ 
 }
- video{
-     width:100%;
-     height:35rem;
-     z-index:-1;
-     opacity:0.8;
- }
+video {
+    width: 100%;
+    height: 40rem;
+    z-index: -1;
+    filter: brightness(60%);
+    opacity: 0.7;
+    object-fit: fill;
+}
+
 .home-container {
     height:100vh;
     width:100%;
@@ -16,15 +20,16 @@
     object-fit:contain;
 }
 .home-container > h1{
-    margin-top:-350px;
-    font-family:
+    margin-top:-340px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+.rise {
+    color: rgb(230, 230, 119);
+}
 span {
     font-family: 'Bebas Neue', cursive;
     font-size: 4rem;
-    color: antiquewhite;
+    color: white;
     top: 50%;
     left: 50%;
 
@@ -43,6 +48,64 @@ span {
     }
     .home-container > p{
         font-size:25px;
-       color:antiquewhite;
+       color:white;
        font-family:SansSerif;
+    }
+.body-card{
+    margin-top:-4.3%;
+    margin-left:-0.9%;
+}
+
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    
+    
+}
+
+.card {
+    position: relative;
+  margin-right:20px;
+    width: 300px;
+    height: 370px;
+    transition: 0.3s ease-out;
+   
+}
+
+.card .imgbox{
+    position:relative;
+  
+    width:100%;
+    height:100%;
+}
+.card .imgbox img{
+    object-fit:fill;
+    top:0;
+    left:0;
+    width:100%;
+    height:80%;
+    display:block;
+    transition:0.5s;
+}
+    .card .content {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        padding: 12px;
+        background: rgb(175, 226, 243);
+        transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+        box-sizing: border-box;
+        overflow: hidden;
+        color: white;
+    }
+    .card:hover .content{
+        width:100%;
+        height:75%;
+        left:0;
+        bottom:0;
+        opacity:0.9;
+
     }
