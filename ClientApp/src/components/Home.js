@@ -21,8 +21,7 @@ export class Home extends Component {
                       </div>
                       <div className='content'>
                           <h2>Laboratory</h2>
-                              <p>Laboratori yne i paisur me te gjitha paisjet per analiza biokimike
-                                  qe ju mundeson t'i kryeni te gjitha analizat biokimike ne nje vend.</p>
+                              <p>Our laboratory equipped with all equipment for biochemical analysis which enables you to perform all biochemical analyzes needed in one place.</p>
                       </div>
                   </div>
                       <div className='card'>
@@ -31,7 +30,7 @@ export class Home extends Component {
                           </div>
                           <div className='content'>
                               <h2>Resonance</h2>
-                              <p>lorem ipsum blla blla  blla</p>
+                              <p>Full Body Health Checkup Using Quantum Resonance Magnetic Body Health Analyzer Machine to analyze your entire body</p>
                           </div>
                       </div>
                       <div className='card'>
@@ -40,7 +39,7 @@ export class Home extends Component {
                           </div>
                           <div className='content'>
                               <h2>Dental Care</h2>
-                              <p>lorem ipsum blla blla  blla</p>
+                              <p>Dental Care of SunRiseCare Hospital is your home for affordable dentistry and exceptional service in Prishtine, Kosove.</p>
                           </div>
                       </div>
                       <div className='card'>
@@ -48,8 +47,8 @@ export class Home extends Component {
                               <img src="oftamologu.jpg" />
                           </div>
                           <div className='content'>
-                              <h2>Ophthalmology</h2>
-                              <p>lorem ipsum blla blla  blla</p>
+                              <h2>Ophthamology</h2>
+                              <p>The world's best association of eye physicians and surgeons, we advocate for patients and the public and set standards for ophthalmic education.</p>
                           </div>
                       </div>
                   </div>
