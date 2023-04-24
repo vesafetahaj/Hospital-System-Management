@@ -42,9 +42,14 @@ img{
 .navbar-nav{
     margin-right:0px;
 }
-
+#last {
+    margin-right: 70px;
+}
 html {
     font-size: 14px;
+}
+button {
+    font-family: Consolas;
 }
 @media (min-width: 768px) {
   html {

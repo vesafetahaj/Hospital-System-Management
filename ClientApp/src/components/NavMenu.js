@@ -43,10 +43,12 @@ export class NavMenu extends Component {
                 <NavLink tag={Link} className="text-dark" to="/aboutus">About Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} className="text-dark" to="/fetch-data">Contact Us</NavLink>
+                <NavLink tag={Link} className="text-dark" to="/fetch-data" id="last">Contact Us</NavLink>
                </NavItem>
-            </ul>
-          </Collapse>
+                    </ul>
+              
+                </Collapse>
+                <button className='btn btn-success'>Log In</button>
         </Navbar>
       </header>
     );

@@ -1,6 +1,7 @@
 import React, { Component, Fragment} from 'react';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+
 import './aboutus.css';
 
 export class AboutUs extends Component {
@@ -81,7 +82,103 @@ export class AboutUs extends Component {
                                 <img src='gallery6.jpg'></img>
                             </Zoom>
                             </div>
+                    </div>
+
+                    <div className='staff-container'>
+                        <h1>Our Team</h1>
+                        <Fade up>
+                        <div className='staff-row'>
+                            <div className='staff-image'>
+                                <img src='staff1.jpg'></img>
+                                <div className='staff-info'>
+                                    <h3>Fariba Abbasi, Dr.med</h3>
+                                    <h4>PhD Fellow, Department of Visceral Surgery and Transplantation</h4><br></br>
+                                    <h6>Tel. +41 44 255 11 11</h6>
+                                    <h6>Mail: fariba.abbassi@usz.ch</h6>
+                                </div>
+                            </div>
                         </div>
+                        <div className='staff-row'>
+                            <div className='staff-image'>
+                                <img src='staff2.png'></img>
+                                <div className='staff-info'>
+                                    <h3>Adriano Aguzzi, Prof. Dr. med.</h3>
+                                    <h4>Director, Institute of Neuropathology</h4><br></br>
+                                    <h6>Tel. +41 44 255 21 07</h6>
+                                    <h6>Mail: adriano.aguzzi@usz.ch</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='staff-row'>
+                            <div className='staff-image'>
+                                <img src='staff3.jpg'></img>
+                                <div className='staff-info'>
+                                    <h3>Meytan Akman</h3>
+                                    <h4>Director, Institute of Neuropathology</h4><br></br>
+                                    <h6>Tel. +41 43 254 02 06</h6>
+                                    <h6>Mail: meytan.akman@usz.ch</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='staff-row'>
+                            <div className='staff-image'>
+                                <img src='staff4.jpg'></img>
+                                <div className='staff-info'>
+                                    <h3>Claudio Alborghetti</h3>
+                                    <h4>Head Recruiting & Employer Branding</h4><br></br>
+                                    <h6>Tel. +41 44 255 34 85</h6>
+                                    <h6>Mail: claudio.alborghetti@usz.ch</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='staff-row'>
+                            <div className='staff-image'>
+                                <img src='staff5.png'></img>
+                                <div className='staff-info'>
+                                    <h3>Claudia Althaus</h3>
+                                    <h5>Clinical Research Manager Onkologie, Universitäts-Kinderspital Zürich
+                                        Koordinatorin Zentrum für Onkologie, Universitäts-Kinderspital Zürich, Comprehensive Cancer Center Zurich</h5><br></br>
+                                    <h6>Tel. +41 44 266 32 71</h6>
+                                    <h6>Mail:  claudia.althaus@kispi.uzh.ch</h6>
+                                </div>
+                            </div>
+                            </div>
+                            <div className='staff-row'>
+                                <div className='staff-image'>
+                                    <img src='staff8.jpg'></img>
+                                    <div className='staff-info'>
+                                        <h3>Raphael Butsch, Dr. med.</h3>
+                                        <h5>Oberarzt, Department of Rheumatology</h5><br></br>
+                                        <h6>Tel. +41 43 254 21 39</h6>
+                                        <h6>Mail:  raphael.butsch@usz.ch</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='staff-row'>
+                                <div className='staff-image'>
+                                    <img src='staff6.jpg'></img>
+                                    <div className='staff-info'>
+                                        <h3>Cristina Andreotti</h3>
+                                        <h5>Patient Relations Manager</h5><br></br>
+                                        <h6>Tel. +41 44 255 54 54</h6>
+                                        <h6>Mail:  cristina.andreotti@usz.ch</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='staff-row'>
+                                <div className='staff-image'>
+                                    <img src='staff7.jpg'></img>
+                                    <div className='staff-info'>
+                                        <h3>Angela Baer</h3>
+                                        <h5>Study Nurse, Department of Vascular Surgery</h5><br></br>
+                                        <h6>Tel. +41 43 253 10 94</h6>
+                                        <h6>Mail:  angela.baer@usz.ch</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </Fade>
+                    </div>
+                
                 </div>
             </Fragment>
           
