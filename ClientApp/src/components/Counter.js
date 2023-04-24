@@ -44,7 +44,7 @@ export class Counter extends Component {
                 </div>
 
                 <div className='flexbox'>
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="endocrinology.jpeg"></img>
                         </div>
@@ -53,7 +53,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="gynecology.jpg"></img>
                         </div>
@@ -61,7 +61,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="alergology.jpg"></img>
                         </div>
@@ -69,7 +69,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="anesthesiology.jpg"></img>
                         </div>
@@ -77,7 +77,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="checkuup.jpg"></img>
                         </div>
@@ -85,7 +85,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="dermatology.jpg"></img>
                         </div>
@@ -93,7 +93,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="gastroenterology.jpg"></img>
                         </div>
@@ -102,7 +102,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="hematology.jpg"></img>
                         </div>
@@ -111,7 +111,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="invitro.jpg"></img>
                         </div>
@@ -119,7 +119,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="cardiocirurgy.jpg"></img>
                         </div>
@@ -127,7 +127,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="cardiology.jpg"></img>
                         </div>
@@ -135,7 +135,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="pediatri.jpg"></img>
                         </div>
@@ -144,7 +144,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="laborator.jpg"></img>
                         </div>
@@ -152,7 +152,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="kirurgji.jpg"></img>
                         </div>
@@ -161,7 +161,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="kirurgjiplastike.jpg"></img>
                         </div>
@@ -170,7 +170,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="nefrologji.jpeg"></img>
                         </div>
@@ -180,7 +180,7 @@ export class Counter extends Component {
 
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="neurologji.jpg"></img>
                         </div>
@@ -189,7 +189,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="neurok.jpg"></img>
                         </div>
@@ -197,7 +197,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="okulistik.jpg"></img>
                         </div>
@@ -205,7 +205,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="orl.jpg"></img>
                         </div>
@@ -214,7 +214,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="oncology.jpg"></img>
                         </div>
@@ -223,7 +223,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="pleumonogy.jpg"></img>
                         </div>
@@ -231,7 +231,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="urology.jpg"></img>
                         </div>
@@ -239,7 +239,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="reuma.jpg"></img>
                         </div>
@@ -247,7 +247,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="urgjenca.jpg"></img>
                         </div>
@@ -256,7 +256,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="proct.jpg"></img>
                         </div>
@@ -265,7 +265,7 @@ export class Counter extends Component {
                     </div>
 
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="salla.jpg"></img>
                         </div>
@@ -273,7 +273,7 @@ export class Counter extends Component {
                         <a href="#">Read More...</a>
                     </div>
 
-                    <div className='card'>
+                    <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="qendra.jpg"></img>
                         </div>
