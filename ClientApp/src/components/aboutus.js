@@ -1,6 +1,7 @@
 import React, { Component, Fragment} from 'react';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+
 import './aboutus.css';
 
 export class AboutUs extends Component {
