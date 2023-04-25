@@ -27,18 +27,19 @@
 	
 
 .slider {
-	width: 2000px;
+	width: 1533px;
 	height: 500px;
 	background: url('photos/anesthesia.jpg');
 	margin: 100px auto;
 	margin-left: -120px;
+
 	margin-top: 0px;
 	animation: slide 10s infinite;
 }
 
 @keyframes slide {
 	25% {
-		background: url('photos/staf.jpg');
+		background: url('photos/staf2.jpg');
 	}
 
 	50% {
@@ -49,8 +50,8 @@
 		background: url('photos/lab.jpg');
 	}
 
-	100% {
-		background: url('photos/radiology.jpg');
+	85% {
+		background: url('photos/pills.jpg');
 	}
 }
 
@@ -134,14 +135,14 @@
 	}
 
 
-.content {
+.content-sherbimet {
 	width: 90%;
 	float: left;
 	margin-left: 50px;
 
 }
 
-	.content h1 {
+	.content-sherbimet h1 {
 		font-size: 47px;
 		font-family: 'Lucida Calligraphy';
 		letter-spacing: 3.5px;
@@ -150,18 +151,18 @@
 		color: cornflowerblue;
 	}
 
-	.content h2 {
+	.content-sherbimet h2 {
 		font-size: 40px;
 		font-family: sans-serif;
 		color: lightblue;
 		margin-top: -10px;
 		margin-bottom:-40px;
-		margin-left:-120px;
+		margin-left:120px;
 	}
 
-	.content p {
+	.content-sherbimet p {
 		font-family: serif;
-		margin-top: -4px;
+		margin-top: 50px;
 		text-align: justify;
 		font-size: 16px;
 		line-height: 1.5;
@@ -201,12 +202,12 @@
 
 /*cards*/
 
-.card-sherbimet{
+
+.card-sherbimet {
 	background: #fff;
 	width: 250px;
 	margin: 20px;
-	
-	box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+	box-shadow: 0px 0px 15px #1ca9c9;
 	box-sizing: border-box;
 	padding: 20px;
 	border-radius: 5px;
@@ -214,7 +215,7 @@
 }
 
 	.card-sherbimet:hover {
-		box-shadow: 2px 2px 10px black;
+		box-shadow: 3px 3px 18px #A4DDED;
 		transform: translateY(-10px);
 	}
 
@@ -223,6 +224,7 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
+	margin-top: -70px;
 }
 
 .img img {
@@ -246,14 +248,37 @@
 	color: white;
 }
 
-a {
-	display: inline-block;
-	text-decoration: none;
-	font-size: 14px;
-	margin-top: 10px;
+
+.service-toggle {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	width: 100%;
+	max-width: 200px;
 }
 
-
-	a:hover {
-		color: lightgreen;
+	.service-toggle:hover {
+		background-color: #0069d9;
 	}
+
+.service-content {
+	height: 0;
+	overflow: hidden;
+	transition: height 0.3s ease-out;
+}
+
+	.service-content.open {
+		height: auto;
+		padding: 10px;
+		margin-top: 10px;
+	}
+
+.service-content p{
+	text-align:left;
+	word-spacing:4px;
+	font-size:15px;
+}
