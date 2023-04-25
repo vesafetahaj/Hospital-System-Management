@@ -21,7 +21,7 @@ export class Home extends Component {
                       <div className='imgbox'>
                           <img src="laboratoret.jpg"/>
                       </div>
-                      <div className='content'>
+                      <div className='content-home'>
                           <h2>Laboratory</h2>
                               <p>Our laboratory equipped with all equipment for biochemical analysis which enables you to perform all biochemical analyzes needed in one place.</p>
                       </div>
@@ -30,16 +30,16 @@ export class Home extends Component {
                           <div className='imgbox'>
                               <img src="rezonance.jpg" />
                           </div>
-                          <div className='content'>
+                          <div className='content-home'>
                               <h2>Resonance</h2>
                               <p>Full Body Health Checkup Using Quantum Resonance Magnetic Body Health Analyzer Machine to analyze your entire body</p>
                           </div>
                       </div>
                       <div className='card-home'>
                           <div className='imgbox'>
-                              <img src="dentistry.jpg" />
+                              <img src="dentistryy.jpg" />
                           </div>
-                          <div className='content'>
+                          <div className='content-home'>
                               <h2>Dental Care</h2>
                               <p>Dental Care of SunRiseCare Hospital is your home for affordable dentistry and exceptional service in Prishtine, Kosove.</p>
                           </div>
@@ -48,7 +48,7 @@ export class Home extends Component {
                           <div className='imgbox'>
                               <img src="oftamologu.jpg" />
                           </div>
-                          <div className='content'>
+                          <div className='content-home'>
                               <h2>Ophthamology</h2>
                               <p>The world's best association of eye physicians and surgeons, we advocate for patients and the public and set standards for ophthalmic education.</p>
                           </div>
@@ -57,16 +57,16 @@ export class Home extends Component {
               </div>
               <div className='all-buttons'>
               <div className='container-button'>
-                      <div className='button-1'><strong><a>Patient Registration</a></strong></div>
+                      <div className='button-1'><strong>Patient Registration</strong></div>
               </div>
               <div className='container-button'>
-                      <div className='button-1'><strong><a>Choose an appointment</a></strong></div>
+                      <div className='button-1'><strong>Choose an appointment</strong></div>
                   </div>
                <div className='container-button'>
                       <div className='button-1'><strong>Find our location</strong></div>
                </div>
                   <div className='container-button'>
-                      <div className='button-1'><strong><a>Contact</a></strong></div>
+                      <div className='button-1'><strong>Contact</strong></div>
                   </div>
               </div>
               <hr></hr>

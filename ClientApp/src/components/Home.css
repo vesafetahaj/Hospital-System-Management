@@ -86,7 +86,7 @@ span {
     display:block;
     transition:0.5s;
 }
-    .card-home .content {
+    .card-home .content-home {
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -98,7 +98,7 @@ span {
         overflow: hidden;
         color: black;
     }
-    .card-home:hover .content{
+    .card-home:hover .content-home{
         width:100%;
         height:75%;
         left:0;
@@ -106,7 +106,7 @@ span {
         opacity:0.9;
 
     }
-    .content p{
+    .content-home p{
         margin:10px 0 0;
         padding: 1em 1em;
         transform:translateY(2em);
@@ -115,12 +115,12 @@ span {
         text-align:justify;
       
     }
-.card-home:hover .content p{
+.card-home:hover .content-home p{
     transform:translateY(0);
    
 }
 
-.content h2{
+.content-home h2{
     text-align:center;
 }
 .card-home:hover{
