@@ -18,8 +18,8 @@ export class AboutUs extends Component {
             <Fragment>
                 <div className='aboutus'>
                     <video src="Possible-3x1.mp4" id='aboutusvid' autoPlay loop muted />
-                    <h2>About SunRiseCare Hospital</h2>
-                    <img src='white-arrow-down.gif' alt='Scroll Down' onClick={this.handleScroll} />
+                    <h2 id='sunriseabout'>About SunRiseCare Hospital</h2>
+                    <img id ='scrollimg' src='white-arrow-down.gif' alt='Scroll Down' onClick={this.handleScroll} />
                 </div>
                 <div id = 'main-content'>
                     <div className='card-container'>
