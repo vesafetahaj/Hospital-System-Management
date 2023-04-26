@@ -1,8 +1,29 @@
-import React, { Component, Fragment} from 'react';
+import React, { Component, Fragment, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-
 import './aboutus.css';
+
+const MovingNumbers = ({ startNumber, endNumber, duration }) => {
+    const [number, setNumber] = useState(startNumber);
+
+    useEffect(() => {
+        const increment = Math.ceil((endNumber - startNumber) / (duration * 10));
+        const intervalId = setInterval(() => {
+            setNumber(prevNumber => {
+                if (prevNumber + increment >= endNumber) {
+                    clearInterval(intervalId);
+                    return endNumber;
+                } else {
+                    return prevNumber + increment;
+                }
+            });
+        }, 100);
+        return () => clearInterval(intervalId);
+    }, [startNumber, endNumber, duration]);
+
+    return <div className="moving-numbers">{number}</div>;
+};
+
 
 export class AboutUs extends Component {
     static displayName = AboutUs.name;
@@ -15,6 +36,7 @@ export class AboutUs extends Component {
 
     render() {
         return (
+            
             <Fragment>
                 <div className='aboutus'>
                     <video src="Possible-3x1.mp4" id='aboutusvid' autoPlay loop muted />
@@ -178,10 +200,32 @@ export class AboutUs extends Component {
                             </div>
                         </Fade>
                     </div>
-                
+                    
                 </div>
+                <div className='movingNumbers'>
+                    <img src='statisticsimg.jpg'></img>
+                    <div className='statisticicons'>
+                        <div className='statisticrow'>
+                            <img src='happyclients.png'></img>
+                            <MovingNumbers startNumber={950} endNumber={1000} duration={1000000} /><br></br>
+                            <h5 id='firstStatisticHeading'>happy clients</h5>
+                        </div>
+                        <div className='statisticrow'>
+                            <img src='heartrate.png'></img>
+                            <MovingNumbers startNumber={1980} endNumber={2017} duration={1000000} />
+                            <h5>top hospitality</h5>
+                        </div>
+                        <div className='statisticrow'>
+                            <img src='lungs.png'></img>
+                            <MovingNumbers startNumber={440} endNumber={500} duration={1000000} />
+                            <h5>lungs replaced</h5>
+                        </div>
+                    </div>
+                </div>
+                
+
             </Fragment>
-          
+            
         );
     }
 }

@@ -4,6 +4,9 @@
   word-break: break-all;
  
 }
+.container {
+    max-width: 100%;
+}
 img{
     width:40%;
     float:left;
@@ -44,6 +47,12 @@ img{
 }
 #last {
     margin-right: 70px;
+}
+#logoSpitalit{
+    margin-left:70px;
+}
+#loginbttn {
+    margin-right: 100px;
 }
 html {
     font-size: 14px;

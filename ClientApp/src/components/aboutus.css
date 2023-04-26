@@ -1,7 +1,6 @@
 ﻿#aboutusvid{
     opacity: 1;
-    width: 1353px;
-    margin-left: -120px;
+    width: 100%;
     margin-top: -15px;
     height: 140%;
 }
@@ -36,8 +35,7 @@
 .card-container{
     display: flex;
     justify-content: center;
-    width: 1355px;
-    margin-left: -120px;
+    width: 100%;
     margin-top: -10px;
     
 }
@@ -75,13 +73,17 @@
     margin-top: 50px;
     margin-bottom: 40px;
     font-size: 26px;
+    margin-left:400px;
     
+}
+#doctor img{
+    margin-left:50px;
 }
 #doctor-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+   
 }
 .doctor-card{
     padding: 30px;
@@ -95,21 +97,18 @@
     font-family: 'Franklin Gothic Medium';
 }
 #gallery #background{
-    width: 1350px;
-    margin-left: -120px;
+    width: 100%;
     margin-top: -23px;
 }
 
 #gallery {
     position: relative;
-  }
-  
-  #gallery-img {
+}
+#gallery-img {
     position: absolute;
     top: 0;
     left: 0;
-
-  }
+}
   
   #gallery-img img {
     position: relative;
@@ -129,16 +128,57 @@
     border-bottom: 1px solid lightgrey;
     height: 240px;
     padding: 20px;
+    margin-left:60px;
+    margin-right:60px;
 }
-    .staff-row:hover {
-        box-shadow: -5px 0px 5px -2px lightgrey, 5px 0px 5px -2px lightgrey, 0px 10px 10px -5px lightgrey;
-    }
-  .staff-image img{
+.staff-row:hover {
+    box-shadow: -5px 0px 5px -2px lightgrey, 5px 0px 5px -2px lightgrey, 0px 10px 10px -5px lightgrey;
+ }
+.staff-image img{
       width:200px;
       border-radius: 100%;
       margin-right: 100px;
-  }
+}
+.movingNumbers img{
+      width:100%;
+}
+.movingNumbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+
+.statisticicons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.statisticrow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left:0px;
+    margin-top:50px;
+    flex-direction:column;
+}
+
+.statisticrow img {
+    width: 40%;
+}
+.moving-numbers {
+    font-family: "sequel 85";
+    margin-top:20px;
+    font-size:30px;
+}
+.statisticrow h5{
+    font-family:"sequel 85";
+}
+.statisticrow #firstStatisticHeading{
+    margin-top:-25px;
+}
 
   
   
