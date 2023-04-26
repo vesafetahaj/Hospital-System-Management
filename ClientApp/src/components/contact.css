@@ -1,3 +1,4 @@
+/*
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +9,7 @@ body {
 	width: 100%;
 	height: 80vh;
 	font-family: "poppins", sans-serif;
-}
+}*/
 
 .container-contactus {
 	position: relative;
@@ -49,8 +50,13 @@ form {
 	background-color: lightblue;
 }
 
+<<<<<<< HEAD
 .contact-form > h2 {
 	color: white;
+=======
+#contactush2 {
+	color: #fff;
+>>>>>>> 81d12bc4ec56de8d7dbf7758d835483d79daa290
 	font-weight: 500;
 	font-size: 1.5rem;
 	line-height: 1;

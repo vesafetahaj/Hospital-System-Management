@@ -3,7 +3,7 @@ import './sherbimet.css';
 
 
 
-export class Counter extends Component {
+export class Sherbimet extends Component {
     constructor(props) {
         super(props);
         this.state = { open: false };

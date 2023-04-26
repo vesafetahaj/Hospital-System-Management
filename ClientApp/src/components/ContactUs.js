@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './contact.css';
 
-export class FetchData extends Component {
+export class ContactUs extends Component {
     render() {
         return (
             <Fragment>
@@ -52,7 +52,7 @@ export class FetchData extends Component {
 
                         <div className='contact-form'>
                             <form>
-                                <h2><b>Contact Us</b></h2>
+                                <h2 id='contactush2'><b>Contact Us</b></h2>
                                 <input type="text" className="field" placeholder="Name" id="name" />
 
                                 <input type="email" className="field" placeholder="Email" id="email" />

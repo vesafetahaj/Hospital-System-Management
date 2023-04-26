@@ -1,5 +1,5 @@
-import { Counter } from "./components/Counter";
-import { FetchData } from "./components/FetchData";
+import { Sherbimet } from "./components/Sherbimet";
+import { ContactUs } from "./components/ContactUs";
 import { Home } from "./components/Home";
 import { AboutUs } from './components/aboutus';
 
@@ -9,12 +9,12 @@ const AppRoutes = [
     element: <Home />
   },
   {
-    path: '/counter',
-    element: <Counter />
+    path: '/sherbimet',
+    element: <Sherbimet />
   },
   {
-    path: '/fetch-data',
-      element: <FetchData />
+      path: '/contactus',
+      element: <ContactUs />
     },
     {
       path: "/aboutus",
