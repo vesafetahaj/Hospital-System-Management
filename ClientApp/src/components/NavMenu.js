@@ -48,7 +48,9 @@ export class NavMenu extends Component {
                     </ul>
               
                 </Collapse>
-                <button className='btn btn-primary' id='loginbttn'>Log In</button>
+              
+                <NavLink tag={Link} className="text-dark" to="/login" id='loginbttn'>Log In</NavLink>
+
             </Navbar>
 
         </header>

@@ -43,7 +43,7 @@ export class ContactUs extends Component {
                                     <a href="https://www.instagram.com/">
                                     <img src="instagram.png" className="icon1" alt="" />
                                     </a>
-                                    <a href="#">
+                                    <a href="https://www.twitter.com/">
                                     <img src="twitter.png" className="icon1" alt="" />
                                     </a>
                                 </div>
@@ -62,8 +62,8 @@ export class ContactUs extends Component {
                                 <textarea className="field area" placeholder="Message" id="comment"></textarea>
 
                                 <input type="submit" value="Send" className="button" />
-                                <div className="Login">
-                                    You haven't been logged in yet? <a href="./LogIn.html"> Login here</a>
+                                <div className="Login-butoni">
+                                    You haven't been logged in yet? <a href="/login.js"> Login here</a>
                                 </div>
 
                             </form>

@@ -2,6 +2,7 @@ import { Sherbimet } from "./components/Sherbimet";
 import { ContactUs } from "./components/ContactUs";
 import { Home } from "./components/Home";
 import { AboutUs } from './components/aboutus';
+import { login } from './components/login';
 
 const AppRoutes = [
   {
@@ -19,7 +20,13 @@ const AppRoutes = [
     {
       path: "/aboutus",
       element : < AboutUs />
+    },
+    {
+        path: "/login",
+        element: < login />
+
     }
+
 ];
 
 export default AppRoutes;

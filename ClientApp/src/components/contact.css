@@ -110,13 +110,13 @@ form {
 		color: #fff;
 	}
 
-.Login {
+.Login-butoni {
 	font-size: 0.8rem;
 	margin-top: 0.5rem;
 	color: white;
 }
 
-	.Login a {
+	.Login-butoni a {
 		color: #555;
 		text-decoration: none;
 	}
