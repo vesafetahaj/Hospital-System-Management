@@ -96,21 +96,21 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium';
 }
-#gallery #background{
+.gallery #background{
     width: 100%;
     margin-top: -23px;
 }
-
-#gallery {
+.gallery {
     position: relative;
+    height:623px;
 }
-#gallery-img {
+.gallery-img {
     position: absolute;
     top: 0;
     left: 0;
 }
   
-  #gallery-img img {
+  .gallery-img img {
     position: relative;
     display: block;
     width: 300px;
@@ -118,11 +118,11 @@
     padding-left: 10px;
     margin-left: 100px;
   }
-  
+    
   .staff-container >h1{
       text-align: center;
       font-family: "sequel 85";
-       margin-bottom: 50px;
+      margin-bottom: 50px;
       
   }
 .staff-row {

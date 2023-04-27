@@ -111,10 +111,10 @@ export class AboutUs extends Component {
                           </div>
                        </Fade>
                     </div>
-                    <div id='gallery'>
+                    <div className='gallery'>
             
                         <img src='gallery.png' id='background'></img>
-                        <div id='gallery-img'>
+                        <div className='gallery-img'>
                             <Zoom top>
                                 <img src='gallery1.jpg'></img>
                                 <img src='gallery2.jpg'></img>
