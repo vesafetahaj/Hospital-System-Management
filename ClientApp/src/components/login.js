@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './login.css';
 
-export class login extends Component {
+export class LogIn extends Component {
     render() {
         return (
             <Fragment>
@@ -80,7 +80,7 @@ export class login extends Component {
                                 <button className="btn transparent" id="sign-up-button">Sign up</button>
                             </div>
 
-                            <img src="injection.png" className="image-login" alt="">
+                            <img src="injection.png" className="image-login" alt=""></img>
                         </div>
 
                         <div className="panel right-panel">
@@ -90,12 +90,13 @@ export class login extends Component {
                                 <button className="btn transparent" id="sign-in-button">Sign in</button>
                             </div>
 
-                            <img src="hospital.png" className="image-login" alt="">
+                            <img src="hospital.png" className="image-login" alt=""></img>
                         </div>
                     </div>
                 </div>
             </Fragment>
-                );
-            }
+           );
+        }
 }
 
+export default LogIn;
