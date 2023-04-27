@@ -13,12 +13,12 @@ img{
 }
 
 .text-dark {
-    font-family: Consolas;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     position: relative;
     text-decoration: none;
     color: #333;
-    font-size:19px;
-    
+    font-size: 19px;
 }
 
     .text-dark::before {
@@ -28,7 +28,7 @@ img{
         height: 2px;
         bottom: 0;
         left: 0;
-        background-color: rgb(151, 222, 151);
+        background-color: #62D1FB;
         visibility: hidden;
         transform: scaleX(0);
         transition: all 0.2s ease-in-out 0s;
@@ -53,13 +53,13 @@ img{
 }
 #loginbttn {
     margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 html {
     font-size: 14px;
 }
-button {
-    font-family: Consolas;
-}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;

@@ -5,24 +5,46 @@ import './aboutus.css';
 
 const MovingNumbers = ({ startNumber, endNumber, duration }) => {
     const [number, setNumber] = useState(startNumber);
+    const [shouldAnimate, setShouldAnimate] = useState(false);
 
     useEffect(() => {
         const increment = Math.ceil((endNumber - startNumber) / (duration * 10));
-        const intervalId = setInterval(() => {
-            setNumber(prevNumber => {
-                if (prevNumber + increment >= endNumber) {
-                    clearInterval(intervalId);
-                    return endNumber;
-                } else {
-                    return prevNumber + increment;
-                }
-            });
-        }, 100);
+        let intervalId;
+
+        if (shouldAnimate) {
+            intervalId = setInterval(() => {
+                setNumber((prevNumber) => {
+                    if (prevNumber + increment >= endNumber) {
+                        clearInterval(intervalId);
+                        return endNumber;
+                    } else {
+                        return prevNumber + increment;
+                    }
+                });
+            }, 100);
+        }
+
         return () => clearInterval(intervalId);
-    }, [startNumber, endNumber, duration]);
+    }, [startNumber, endNumber, duration, shouldAnimate]);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const element = document.querySelector(".moving-numbers");
+            const elementTop = element.getBoundingClientRect().top;
+
+            if (elementTop < window.innerHeight) {
+                setShouldAnimate(true);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return <div className="moving-numbers">{number}</div>;
 };
+
 
 
 export class AboutUs extends Component {
@@ -212,12 +234,12 @@ export class AboutUs extends Component {
                         </div>
                         <div className='statisticrow'>
                             <img src='heartrate.png'></img>
-                            <MovingNumbers startNumber={1980} endNumber={2017} duration={1000000} />
+                            <MovingNumbers startNumber={1980} endNumber={2017} duration={10000000000} />
                             <h5>top hospitality</h5>
                         </div>
                         <div className='statisticrow'>
                             <img src='lungs.png'></img>
-                            <MovingNumbers startNumber={440} endNumber={500} duration={1000000} />
+                            <MovingNumbers startNumber={460} endNumber={500} duration={10000000000} />
                             <h5>lungs replaced</h5>
                         </div>
                     </div>

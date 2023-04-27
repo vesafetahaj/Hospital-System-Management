@@ -28,7 +28,7 @@ export class NavMenu extends Component {
             <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" container light>
                 <NavbarBrand tag={Link} to="/">
                     <div style={{ maxWidth: "350px" }}>
-                    <img src="/images/logo-no-background.png" alt='Logo' id="logoSpitalit"/>
+                    <img src="logo-no-background.png" alt='Logo' id="logoSpitalit"/>
                 </div></NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
@@ -48,7 +48,7 @@ export class NavMenu extends Component {
                     </ul>
               
                 </Collapse>
-                <button className='btn btn-success' id='loginbttn'>Log In</button>
+                <button className='btn btn-primary' id='loginbttn'>Log In</button>
             </Navbar>
 
         </header>
