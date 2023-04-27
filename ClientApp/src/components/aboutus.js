@@ -84,37 +84,37 @@ export class AboutUs extends Component {
                         </div>
                     </div>
                     
-                        <div id='doctor'>
-                            <h1>Pse te na zgjidhni neve?</h1>
-                            <Fade bottom>
-                                <img src='doctor.png'></img>
-                            </Fade>
-                            <Fade right>
-                                <div id='doctor-container'>
-                                    <div className='doctor-card'>
-                                        <img src='expertise.png'></img><br></br><br></br>
-                                        <h3>Ekspertiza jone</h3>
-                                    </div>
-                                    <div className='doctor-card'>
-                                        <img src='profit.png'></img><br></br><br></br>
-                                        <h3>Kujdesi cilësor me kosto efektive</h3>
-                                    </div>
-                                    <div className='doctor-card'>
-                                        <img src='idea.png'></img><br></br><br></br>
-                                        <h3>Inovacion me ndikim</h3>
-                                    </div>
-                                    <div className='doctor-card'>
-                                        <img src='medical.png'></img><br></br><br></br>
-                                        <h3>Ju jeni prioriteti jone</h3>
-                                    </div>
+                    <div id='doctor'>
+                       <h1>Pse te na zgjidhni neve?</h1>
+                       <Fade bottom>
+                           <img src='doctor.png'></img>
+                       </Fade>
+                       <Fade right>
+                          <div id='doctor-container'>
+                              <div className='doctor-card'>
+                                  <img src='expertise.png'></img><br></br><br></br>
+                                   <h3>Ekspertiza jone</h3>
+                              </div>
+                              <div className='doctor-card'>
+                                 <img src='profit.png'></img><br></br><br></br>
+                                 <h3>Kujdesi cilësor me kosto efektive</h3>
+                              </div>
+                              <div className='doctor-card'>
+                                 <img src='idea.png'></img><br></br><br></br>
+                                    <h3>Inovacion me ndikim</h3>
+                              </div>
+                              <div className='doctor-card'>
+                                  <img src='medical.png'></img><br></br><br></br>
+                                  <h3>Ju jeni prioriteti jone</h3>
+                              </div>
                         
-                                </div>
-                             </Fade>
-                        </div>
-                        <div id='gallery'>
+                          </div>
+                       </Fade>
+                    </div>
+                    <div id='gallery'>
             
-                            <img src='gallery.png' id='background'></img>
-                            <div id='gallery-img'>
+                        <img src='gallery.png' id='background'></img>
+                        <div id='gallery-img'>
                             <Zoom top>
                                 <img src='gallery1.jpg'></img>
                                 <img src='gallery2.jpg'></img>
@@ -125,78 +125,78 @@ export class AboutUs extends Component {
                                 <img src='gallery5.jpg'></img>
                                 <img src='gallery6.jpg'></img>
                             </Zoom>
-                            </div>
+                        </div>
                     </div>
 
                     <div className='staff-container'>
                         <h1>Our Team</h1>
                         <Fade up>
-                        <div className='staff-row'>
-                            <div className='staff-image'>
-                                <img src='staff1.jpg'></img>
-                                <div className='staff-info'>
-                                    <h3>Fariba Abbasi, Dr.med</h3>
-                                    <h4>PhD Fellow, Department of Visceral Surgery and Transplantation</h4><br></br>
-                                    <h6>Tel. +41 44 255 11 11</h6>
-                                    <h6>Mail: fariba.abbassi@usz.ch</h6>
+                            <div className='staff-row'>
+                                <div className='staff-image'>
+                                    <img src='staff1.jpg'></img>
+                                    <div className='staff-info'>
+                                        <h3>Fariba Abbasi, Dr.med</h3>
+                                        <h4>PhD Fellow, Department of Visceral Surgery and Transplantation</h4><br></br>
+                                        <h6>Tel. +41 44 255 11 11</h6>
+                                        <h6>Mail: fariba.abbassi@usz.ch</h6>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className='staff-row'>
-                            <div className='staff-image'>
-                                <img src='staff2.png'></img>
-                                <div className='staff-info'>
-                                    <h3>Adriano Aguzzi, Prof. Dr. med.</h3>
-                                    <h4>Director, Institute of Neuropathology</h4><br></br>
-                                    <h6>Tel. +41 44 255 21 07</h6>
-                                    <h6>Mail: adriano.aguzzi@usz.ch</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='staff-row'>
-                            <div className='staff-image'>
-                                <img src='staff3.jpg'></img>
-                                <div className='staff-info'>
-                                    <h3>Meytan Akman</h3>
-                                    <h4>Director, Institute of Neuropathology</h4><br></br>
-                                    <h6>Tel. +41 43 254 02 06</h6>
-                                    <h6>Mail: meytan.akman@usz.ch</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='staff-row'>
-                            <div className='staff-image'>
-                                <img src='staff4.jpg'></img>
-                                <div className='staff-info'>
-                                    <h3>Claudio Alborghetti</h3>
-                                    <h4>Head Recruiting & Employer Branding</h4><br></br>
-                                    <h6>Tel. +41 44 255 34 85</h6>
-                                    <h6>Mail: claudio.alborghetti@usz.ch</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='staff-row'>
-                            <div className='staff-image'>
-                                <img src='staff5.png'></img>
-                                <div className='staff-info'>
-                                    <h3>Claudia Althaus</h3>
-                                    <h5>Clinical Research Manager Onkologie, Universitäts-Kinderspital Zürich
-                                        Koordinatorin Zentrum für Onkologie, Universitäts-Kinderspital Zürich, Comprehensive Cancer Center Zurich</h5><br></br>
-                                    <h6>Tel. +41 44 266 32 71</h6>
-                                    <h6>Mail:  claudia.althaus@kispi.uzh.ch</h6>
-                                </div>
-                            </div>
                             </div>
                             <div className='staff-row'>
                                 <div className='staff-image'>
-                                    <img src='staff8.jpg'></img>
+                                    <img src='staff2.png'></img>
                                     <div className='staff-info'>
-                                        <h3>Raphael Butsch, Dr. med.</h3>
-                                        <h5>Oberarzt, Department of Rheumatology</h5><br></br>
-                                        <h6>Tel. +41 43 254 21 39</h6>
-                                        <h6>Mail:  raphael.butsch@usz.ch</h6>
+                                        <h3>Adriano Aguzzi, Prof. Dr. med.</h3>
+                                        <h4>Director, Institute of Neuropathology</h4><br></br>
+                                        <h6>Tel. +41 44 255 21 07</h6>
+                                        <h6>Mail: adriano.aguzzi@usz.ch</h6>
                                     </div>
                                 </div>
+                            </div>
+                            <div className='staff-row'>
+                                <div className='staff-image'>
+                                    <img src='staff3.jpg'></img>
+                                    <div className='staff-info'>
+                                        <h3>Meytan Akman</h3>
+                                        <h4>Director, Institute of Neuropathology</h4><br></br>
+                                        <h6>Tel. +41 43 254 02 06</h6>
+                                        <h6>Mail: meytan.akman@usz.ch</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='staff-row'>
+                                <div className='staff-image'>
+                                    <img src='staff4.jpg'></img>
+                                    <div className='staff-info'>
+                                        <h3>Claudio Alborghetti</h3>
+                                        <h4>Head Recruiting & Employer Branding</h4><br></br>
+                                        <h6>Tel. +41 44 255 34 85</h6>
+                                        <h6>Mail: claudio.alborghetti@usz.ch</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='staff-row'>
+                                <div className='staff-image'>
+                                    <img src='staff5.png'></img>
+                                    <div className='staff-info'>
+                                        <h3>Claudia Althaus</h3>
+                                        <h5>Clinical Research Manager Onkologie, Universitäts-Kinderspital Zürich
+                                            Koordinatorin Zentrum für Onkologie, Universitäts-Kinderspital Zürich, Comprehensive Cancer Center Zurich</h5><br></br>
+                                        <h6>Tel. +41 44 266 32 71</h6>
+                                        <h6>Mail:  claudia.althaus@kispi.uzh.ch</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='staff-row'>
+                               <div className='staff-image'>
+                                  <img src='staff8.jpg'></img>
+                                  <div className='staff-info'>
+                                      <h3>Raphael Butsch, Dr. med.</h3>
+                                      <h5>Oberarzt, Department of Rheumatology</h5><br></br>
+                                      <h6>Tel. +41 43 254 21 39</h6>
+                                      <h6>Mail:  raphael.butsch@usz.ch</h6>
+                                  </div>
+                               </div>
                             </div>
                             <div className='staff-row'>
                                 <div className='staff-image'>
@@ -223,24 +223,25 @@ export class AboutUs extends Component {
                         </Fade>
                     </div>
                     
-                </div>
-                <div className='movingNumbers'>
-                    <img src='statisticsimg.jpg'></img>
-                    <div className='statisticicons'>
-                        <div className='statisticrow'>
-                            <img src='happyclients.png'></img>
-                            <MovingNumbers startNumber={950} endNumber={1000} duration={1000000} /><br></br>
-                            <h5 id='firstStatisticHeading'>happy clients</h5>
-                        </div>
-                        <div className='statisticrow'>
-                            <img src='heartrate.png'></img>
-                            <MovingNumbers startNumber={1980} endNumber={2017} duration={10000000000} />
-                            <h5>top hospitality</h5>
-                        </div>
-                        <div className='statisticrow'>
-                            <img src='lungs.png'></img>
-                            <MovingNumbers startNumber={460} endNumber={500} duration={10000000000} />
-                            <h5>lungs replaced</h5>
+                
+                    <div className='movingNumbers'>
+                        <img src='statisticsimg.jpg'></img>
+                        <div className='statisticicons'>
+                            <div className='statisticrow'>
+                                <img src='happyclients.png'></img>
+                                <MovingNumbers startNumber={950} endNumber={1000} duration={1000000} /><br></br>
+                                <h5 id='firstStatisticHeading'>happy clients</h5>
+                            </div>
+                            <div className='statisticrow'>
+                                <img src='heartrate.png'></img>
+                                <MovingNumbers startNumber={1980} endNumber={2017} duration={10000000000} />
+                                <h5>top hospitality</h5>
+                            </div>
+                            <div className='statisticrow'>
+                                <img src='lungs.png'></img>
+                                <MovingNumbers startNumber={460} endNumber={500} duration={10000000000} />
+                                <h5>lungs replaced</h5>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -113,11 +113,12 @@
   #gallery-img img {
     position: relative;
     display: block;
-    width: 26%;
+    width: 300px;
     margin-top: 60px;
     padding-left: 10px;
-    margin-left: 50px;
+    margin-left: 100px;
   }
+  
   .staff-container >h1{
       text-align: center;
       font-family: "sequel 85";
@@ -128,8 +129,7 @@
     border-bottom: 1px solid lightgrey;
     height: 240px;
     padding: 20px;
-    margin-left:60px;
-    margin-right:60px;
+    
 }
 .staff-row:hover {
     box-shadow: -5px 0px 5px -2px lightgrey, 5px 0px 5px -2px lightgrey, 0px 10px 10px -5px lightgrey;
