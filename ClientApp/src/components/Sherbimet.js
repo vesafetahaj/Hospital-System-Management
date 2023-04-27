@@ -24,7 +24,7 @@ export class Sherbimet extends Component {
                 </div>
 
 
-                <div className='slider'>
+                <div className='slider-sherbimet'>
                 </div>
 
 
@@ -53,7 +53,7 @@ export class Sherbimet extends Component {
                     </div>
                 </div>
 
-                <div className='flexbox'>
+                <div className='flexbox-sherbimet'>
                     <div className='card-sherbimet'>
                         <div className='img'>
                             <img src="endocrinology.jpeg" alt="Endokrinologji"></img>

@@ -13,7 +13,7 @@ export class ContactUs extends Component {
                     <div className="form">
 
                         <div className="contact-info">
-                            <h3 className="title">Let's get in touch</h3>
+                            <h3 className="title-contact">Let's get in touch</h3>
                             <p className="text">Should you have any questions or concerns - or
                                 simply want more information about Sunrisecare Hospital,
                                 please feel free to contact us.</p>

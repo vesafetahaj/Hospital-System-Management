@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\ClientApp",
-    "\\ClientApp\\public\\images",
     "\\ClientApp\\src",
-    "\\ClientApp\\src\\components"
+    "\\ClientApp\\src\\components",
+    "\\ClientApp\\src\\components\\photos"
   ],
-  "SelectedNode": "\\ClientApp\\src\\components\\FetchData.js",
+  "SelectedNode": "\\ClientApp\\src\\components\\aboutus.css",
   "PreviewInSolutionExplorer": false
 }
