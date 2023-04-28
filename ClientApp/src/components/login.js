@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './login.css';
+import FooterPage from './footer';
 
 export class LogIn extends Component {
     render() {
@@ -21,7 +22,8 @@ export class LogIn extends Component {
                 </div>
             </form>
             </div>
-        </div>
+                </div>
+                <FooterPage />
             </Fragment>
            );
         }

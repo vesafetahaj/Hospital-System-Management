@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './sherbimet.css';
-
+import FooterPage from './footer';
 
 
 export class Sherbimet extends Component {
@@ -478,7 +478,7 @@ export class Sherbimet extends Component {
                     </div>
             </div>
           
-
+                <FooterPage />
             </Fragment>
         );
 

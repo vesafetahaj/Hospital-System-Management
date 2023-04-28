@@ -2,6 +2,7 @@ import React, { Component, Fragment, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import './aboutus.css';
+import FooterPage from './footer';
 
 const MovingNumbers = ({ startNumber, endNumber, duration }) => {
     const [number, setNumber] = useState(startNumber);
@@ -246,7 +247,7 @@ export class AboutUs extends Component {
                     </div>
                 </div>
                 
-
+                <FooterPage />
             </Fragment>
             
         );

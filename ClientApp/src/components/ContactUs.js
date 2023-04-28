@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './contact.css';
-
+import FooterPage from './footer';
 export class ContactUs extends Component {
     render() {
         return (
@@ -63,7 +63,7 @@ export class ContactUs extends Component {
 
                                 <input type="submit" value="Send" className="button" />
                                 <div className="Login-butoni">
-                                    You haven't been logged in yet? <a href="/login.js"> Login here</a>
+                                    You haven't been logged in yet? <a href="/login"> Login here</a>
                                 </div>
 
                             </form>
@@ -71,6 +71,7 @@ export class ContactUs extends Component {
 
                     </div> <br/> 
                 </div>
+                <FooterPage />
             </Fragment>
 
         );

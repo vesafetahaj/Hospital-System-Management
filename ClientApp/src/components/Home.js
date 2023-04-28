@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './Home.css';
-
+import FooterPage from './footer';
 
 
 export class Home extends Component {
@@ -79,7 +79,7 @@ export class Home extends Component {
                   allowfullscreen=""
                   loading="lazy">
               </iframe>
-
+              <FooterPage />
         </Fragment>
       );
   }
