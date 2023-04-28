@@ -1,0 +1,98 @@
+.signup-wraper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-img-signup{
+    background-image:
+    url('C:\Users\fursine\Desktop\lab1\Hospital-System-Management\ClientApp\public\login-forma.jpg');
+    height: 30rem;
+    padding: 2rem 0 35rem 0;
+    margin-top: -0.1rem;
+}
+
+.signup-form{
+    margin-left: 35rem;
+    margin-top: 5rem;
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 10px 8px 25px rgba(0, 0, 0, 0.5);
+}
+.signup-form::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    transform: skewX(-26deg);
+    transform-origin: bottom left;
+    border-radius: 10px;
+    pointer-events: none;
+}
+.signup-form img{
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 9%);
+    width: 65px;
+    border-radius: 50%;
+}
+.h2-signup{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: rgb(42, 112, 162);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.field-signup {
+	position: relative;
+	margin: 1rem 0;
+	width: 100%;
+	outline: none;
+	border: 2px solid #fafafa;
+	background: none;
+	padding: 0.6rem 1.2rem;
+	color: white;
+	font-weight: 500;
+	font-size: 0.95rem;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	transition: 0.3s;
+}
+
+	.field-signup:hover {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+.submit-btn-signup{
+    display: block;
+    margin-left: 6.3rem;
+    border: none;
+    outline: none;
+    background: rgb(43, 144, 191);
+    border: 1px solid #fafafa;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.submit-btn-signup:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.signup-link{
+    margin-left: 3.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: -1rem;
+}

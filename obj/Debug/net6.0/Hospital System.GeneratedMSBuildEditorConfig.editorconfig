@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Hospital_System
 build_property.RootNamespace = Hospital_System
-build_property.ProjectDir = C:\Users\Admin\Desktop\FK\lab1\Projekti\github\
+build_property.ProjectDir = C:\Users\fursine\Desktop\lab1\Hospital-System-Management\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\FK\lab1\Projekti\github
+build_property.MSBuildProjectDirectory = C:\Users\fursine\Desktop\lab1\Hospital-System-Management
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Hospital System/Pages/Error.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Hospital System/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = SG9zcGl0YWwgU3lzdGVtXFBhZ2VzXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Hospital System/Pages/Index.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Hospital System/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = SG9zcGl0YWwgU3lzdGVtXFBhZ2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Hospital System/Pages/Privacy.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Hospital System/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = SG9zcGl0YWwgU3lzdGVtXFBhZ2VzXFByaXZhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Hospital System/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Hospital System/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = SG9zcGl0YWwgU3lzdGVtXFBhZ2VzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Hospital System/Pages/_ViewImports.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Hospital System/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = SG9zcGl0YWwgU3lzdGVtXFBhZ2VzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Hospital System/Pages/_ViewStart.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Hospital System/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = SG9zcGl0YWwgU3lzdGVtXFBhZ2VzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Pages/Error.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Pages/Index.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Pages/Privacy.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Pages/_ViewImports.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Pages/_ViewStart.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Hospital System/Pages/Shared/_Layout.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Hospital System/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = SG9zcGl0YWwgU3lzdGVtXFBhZ2VzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-gx1e29fshs
 
-[C:/Users/Admin/Desktop/FK/lab1/Projekti/github/Pages/Shared/_Layout.cshtml]
+[C:/Users/fursine/Desktop/lab1/Hospital-System-Management/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cxmsguruyp
