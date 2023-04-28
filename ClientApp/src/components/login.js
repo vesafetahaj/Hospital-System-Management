@@ -17,7 +17,7 @@ export class LogIn extends Component {
 
                 <input type='submit' value="LogIn" className='submit-btn-login'/>
                 <div className="login-link">
-                 Not a member...? <a href ="#">SignUp</a>
+                 Not a member...? <a href ="/signup">SignUp</a>
                 </div>
             </form>
             </div>

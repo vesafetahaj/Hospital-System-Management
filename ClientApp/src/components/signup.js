@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './signup.css';
 
-export class signup extends Component {
+export class SignUp extends Component {
     render() {
         return (
             <Fragment>
@@ -32,4 +32,4 @@ export class signup extends Component {
         }
 }
 
-export default signup;
+export default SignUp;

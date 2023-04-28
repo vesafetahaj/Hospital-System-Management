@@ -3,6 +3,7 @@ import { ContactUs } from "./components/ContactUs";
 import { Home } from "./components/Home";
 import { AboutUs } from './components/aboutus';
 import { LogIn } from './components/login';
+import { SignUp } from './components/signup';
 
 const AppRoutes = [
   {
@@ -24,6 +25,11 @@ const AppRoutes = [
     {
         path: "/login",
         element: <LogIn />
+
+    },
+    {
+        path: "/signup",
+        element: <SignUp />
 
     }
 

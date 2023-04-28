@@ -5,9 +5,8 @@
     justify-content: center;
     align-items: center;
 }
-.background-img-login{
-    background-image:
-    url('C:\Users\fursine\Desktop\lab1\Hospital-System-Management\ClientApp\public\login-forma.jpg');
+.background-img-login {
+    background-image: url('photos/login-forma.jpg');
     height: 30rem;
     padding: 2rem 0 35rem 0;
     margin-top: -0.1rem;
