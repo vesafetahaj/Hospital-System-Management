@@ -9,13 +9,14 @@
     background-image: url('photos/login-forma-color.jpg');
     padding: 2rem 0 35rem 0;
     margin-top: -0.1rem;
-    background-size: 100% 60%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    height:110vh;
 }
 
 .signup-form{
     width: 50%; 
-    margin: 0 auto; 
+    margin:0 auto; 
     position: relative;
     width: 100%;
     max-width: 380px;
