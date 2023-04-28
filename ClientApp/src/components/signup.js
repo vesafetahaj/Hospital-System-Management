@@ -22,7 +22,7 @@ export class SignUp extends Component {
 
                 <input type='submit' value="SignUp" className='submit-btn-signup'/>
                 <div className="login-link">
-                 Already a member..? <a href ="#">LogIn</a>
+                 Already a member..? <a href ="/login">LogIn</a>
                 </div>
             </form>
             </div>

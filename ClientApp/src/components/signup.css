@@ -6,15 +6,16 @@
     align-items: center;
 }
 .background-img-signup {
-    background-image: url('photos/login-forma.jpg');
-    height: 30rem;
+    background-image: url('photos/login-forma-color.jpg');
     padding: 2rem 0 35rem 0;
     margin-top: -0.1rem;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
 }
 
 .signup-form{
-    margin-left: 35rem;
-    margin-top: 5rem;
+    width: 50%; 
+    margin: 0 auto; 
     position: relative;
     width: 100%;
     max-width: 380px;
