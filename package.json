@@ -4,6 +4,17 @@
     "google-map-react": "^2.2.0",
     "react-hover": "^3.0.1",
     "react-reveal": "^1.2.2",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-spring/web": "^9.7.2",
+    "animate.css": "^4.1.1",
+    "cdbreact": "^1.5.14",
+    "mdbreact": "^5.2.0",
+    "react-bootstrap-pagination-control": "^1.0.5",
+    "react-fontawesome": "^1.7.1",
+    "styled-components": "^5.3.10"
   }
 }
