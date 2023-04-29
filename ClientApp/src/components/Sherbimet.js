@@ -70,7 +70,7 @@ export class Sherbimet extends Component {
     }
 
     toggleEndikronologjiCollapse() {
-        this.setState({ endokrinologjiOpen: !this.state.endokrinologjiOpen }); //endokrinologjiOpen qekjo qe e kom shkru nalt te states
+        this.setState({ endokrinologjiOpen: !this.state.endokrinologjiOpen }); 
     }
 
     toggleGjinekologjiCollapse() {
@@ -160,9 +160,6 @@ export class Sherbimet extends Component {
 
 
 
-
-  //kqyr edhe rreshtin 65 ki kkomente
-
         render() {
 
         return (
@@ -207,10 +204,10 @@ export class Sherbimet extends Component {
                             <img src="endocrinology.jpeg" alt="Endokrinologji"></img>
                         </div>
                         <p className='title'>Endrokrinologji</p>
-                        <button type='button' className='service-toggle' onClick={this.toggleEndikronologjiCollapse}> { /* qetu e len emrin e funksionit nalt qysh e kem bo */}
-                            {this.state.endokrinologjiOpen ? 'Read Less...' : 'Read More...'} { /* qetu emrin te state qysh e kem lon */}
+                        <button type='button' className='service-toggle' onClick={this.toggleEndikronologjiCollapse}>
+                            {this.state.endokrinologjiOpen ? 'Read Less...' : 'Read More...'} 
                         </button>
-                        <div className={`service-content ${this.state.endokrinologjiOpen ? 'open' : ''}`}> { /* edhe ktu emrin si te state */}
+                        <div className={`service-content ${this.state.endokrinologjiOpen ? 'open' : ''}`}> 
                             <p>Ne spitalin tone kryhen vizita specialistike endrokrinologjike per:Patologjite e gjendres tiroide ,Patologjite e gjendres se hipofizes, Semundjet e gjendres mbiveshkor,Hipertensioni me origjine endokrine, Diabeti Mellitus tip 1 dhe 2 dhe Obeziteti.
                           </p>
                         </div>
