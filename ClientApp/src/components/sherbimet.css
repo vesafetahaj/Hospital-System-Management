@@ -22,13 +22,13 @@
 
 
 .slider-sherbimet {
-	width: 100%;
+	width: 1650;
 	height: 520px;
-	background: url('photos/staf.jpg');
+	background: url('photos/staf2.jpg');
 	margin: 100px auto;
 	margin-left: -120px;
 	margin-top: 0px;
-	animation: slide 7s infinite;
+	animation: slide 6s infinite;
 }
 
 @keyframes slide {
@@ -44,8 +44,8 @@
 		background: url('photos/lab.jpg');
 	}
 
-	85% {
-		background: url('photos/pillsss.jpg');
+	100% {
+		background: url('photos/slideee.jpg');
 	}
 }
 
