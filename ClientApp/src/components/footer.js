@@ -11,8 +11,10 @@ export class FooterPage extends React.Component {
                 <Container className="text-left">
                     <Row>
                         <Col md="6">
-                            <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">About Us</h5>
-                            <p>At Sunrise Care Hospital, we are committed to providing our patients with the highest quality medical care possible. Our state-of-the-art facilities and experienced medical professionals ensure that every patient receives the personalized attention they deserve. .</p>
+                            <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">Working Hours</h5>
+                            <p>E hene - E premte: 7AM - 12AM</p>
+                            <p>E shtune: 9AM - 22PM</p>
+                            <p>E diele: 10AM - 20PM</p>
                         </Col>
                         <hr className="clearfix w-100 d-md-none" />
                         <Col md="4">
