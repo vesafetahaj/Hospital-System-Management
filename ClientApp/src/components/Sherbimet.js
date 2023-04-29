@@ -6,14 +6,17 @@ import FooterPage from './footer';
 export class Sherbimet extends Component {
     constructor(props) {
         super(props);
-        this.state = { open: false };
-        this.toggleCollapse = this.toggleCollapse.bind(this);
+        this.state = {
+            endokrinologjiOpen: false, //per secilen duhesh qeshtu (mos harro , mas seciles)
+
+        };
+        this.toggleEndikronologjiCollapse = this.toggleEndikronologjiCollapse.bind(this);//secilen duhesh qeshtu njejt veq ja ndrron emrat
     }
 
-    toggleCollapse() {
-        this.setState({ open: !this.state.open });
+    toggleEndikronologjiCollapse() {
+        this.setState({ endokrinologjiOpen: !this.state.endokrinologjiOpen }); //endokrinologjiOpen qekjo qe e kom shkru nalt te states
     }
-  
+  //kqyr edhe rreshtin 65 ki kkomente
 
         render() {
 
@@ -59,10 +62,10 @@ export class Sherbimet extends Component {
                             <img src="endocrinology.jpeg" alt="Endokrinologji"></img>
                         </div>
                         <p className='title'>Endrokrinologji</p>
-                        <button type='button' className='service-toggle' onClick={this.toggleCollapse}>
-                            {this.state.open ? 'Read Less...' : 'Read More...'}
+                        <button type='button' className='service-toggle' onClick={this.toggleEndikronologjiCollapse}> { /* qetu e len emrin e funksionit nalt qysh e kem bo */}
+                            {this.state.endokrinologjiOpen ? 'Read Less...' : 'Read More...'} { /* qetu emrin te state qysh e kem lon */}
                         </button>
-                        <div className={`service-content ${this.state.open ? 'open' : ''}`}>
+                        <div className={`service-content ${this.state.endokrinologjiOpen ? 'open' : ''}`}> { /* edhe ktu emrin si te state */}
                             <p>Ne spitalin tone kryhen vizita specialistike endrokrinologjike per:Patologjite e gjendres tiroide ,Patologjite e gjendres se hipofizes, Semundjet e gjendres mbiveshkor,Hipertensioni me origjine endokrine, Diabeti Mellitus tip 1 dhe 2 dhe Obeziteti.
                           </p>
                         </div>
