@@ -14,6 +14,6 @@ namespace Hospital_System.Models
 
         public string Password { get; set; }
 
-        public string Role { get; set; }
+        
     }
 }

@@ -42,7 +42,7 @@ namespace Hospital_System.Controllers
 
         public JsonResult Post(User u)
         {
-            string query = @"INSERT INTO Users (Name, Surname, Email, Password, Role) VALUES (@Name, @Surname, @Email, @Password, @Role)";
+            string query = @"INSERT INTO Users (Name, Surname, Email, Password) VALUES (@Name, @Surname, @Email, @Password)";
 
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("DefaultConnection");
@@ -57,7 +57,7 @@ namespace Hospital_System.Controllers
                     myCommand.Parameters.AddWithValue("@Surname", u.Surname);
                     myCommand.Parameters.AddWithValue("@Email", u.Email);
                     myCommand.Parameters.AddWithValue("@Password", u.Password);
-                    myCommand.Parameters.AddWithValue("@Role", u.Role);
+                    
                     myReader = myCommand.ExecuteReader();
                     table.Load(myReader);
                     myReader.Close();
@@ -71,8 +71,8 @@ namespace Hospital_System.Controllers
         public JsonResult Put(User u)
         {
             string query = @"update Users 
-                            set Name = @Name, Surname = @Surname,Email = @Email,Password = @Password,
-                            Role = @Role where UserId = @UserId";
+                            set Name = @Name, Surname = @Surname,Email = @Email,Password = @Password 
+                            where UserId = @UserId";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("DefaultConnection");
             SqlDataReader myReader;
@@ -86,7 +86,7 @@ namespace Hospital_System.Controllers
                     myCommand.Parameters.AddWithValue("@Surname", u.Surname);
                     myCommand.Parameters.AddWithValue("@Email", u.Email);
                     myCommand.Parameters.AddWithValue("@Password", u.Password);
-                    myCommand.Parameters.AddWithValue("@Role", u.Role);
+                    
                     myReader = myCommand.ExecuteReader();
                     table.Load(myReader);
                     myReader.Close();
@@ -97,7 +97,7 @@ namespace Hospital_System.Controllers
         }
         [HttpDelete("{UserId}")] //Delete
 
-        public JsonResult Delete(User u)
+        public JsonResult Delete(int UserId)
         {
             string query = @"delete from Users 
                             where UserId = @UserId";
@@ -109,7 +109,7 @@ namespace Hospital_System.Controllers
                 myCon.Open();
                 using (SqlCommand myCommand = new SqlCommand(query, myCon))
                 {
-                    myCommand.Parameters.AddWithValue("@UserId", u.UserId);
+                    myCommand.Parameters.AddWithValue("@UserId", UserId);
                     
                     myReader = myCommand.ExecuteReader();
                     table.Load(myReader);
