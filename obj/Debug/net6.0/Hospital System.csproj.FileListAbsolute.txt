@@ -102,3 +102,7 @@ C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Micros
 C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\System.Web.Cors.dll
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\hp\source\repos\Hospital System\Hospital System\bin\Debug\net6.0\System.Web.Http.Cors.dll

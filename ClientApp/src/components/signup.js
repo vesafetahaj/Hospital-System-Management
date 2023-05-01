@@ -1,13 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment, useState } from 'react';
 import './signup.css';
 import FooterPage from './footer';
-
-
-
+import axios from "axios";
 
 export class SignUp extends Component {
 
-    handleSubmitSignUp = (event) => {
+    handleSubmitSignUp = async(event) => {
         event.preventDefault();
         const email = event.target.email.value;
         const password = event.target.password.value;
@@ -86,9 +84,23 @@ export class SignUp extends Component {
         }
         // Submit the form
         console.log('Submitting form');
-
-
+        if (emailMsg.innerText === "" && passwordMsg.innerText === "" && nameMsg.innerText === "" && surnameMsg.innerText === "" && confirmMsg.innerText === "") {
+            try {
+                const response = await axios.post('/api/User', {
+                    Name: name,
+                    Surname: surname,
+                    Email: email,
+                    Password: password
+                });
+                console.log(response.data); // server response
+                // Optionally redirect to a success page
+                //window.location.href = "/success";
+            } catch (error) {
+                console.error(error); // handle error
+            }
+        }
     }
+        
 
     render() {
         return (
@@ -97,18 +109,18 @@ export class SignUp extends Component {
         <div className='signup-wrapper'>
             <form action='' className='signup-form' onSubmit={this.handleSubmitSignUp} method='POST'>
                 <img src='user.png' alt='' />
-                <h2 className='h2-signup'>SignUp</h2>
-                <input type="text" className="field-signup" placeholder="Name" id="name" />
+                            <h2 className='h2-signup'>SignUp</h2>
+                            <input type="text" className="field-signup" placeholder="Name" id="name" />
                 <label style={{ color: 'red', fontSize: '12px', paddingLeft: '10px' }} htmlFor="name" id="nameMessage"></label> <br />
 
-                <input type="text" className="field-signup" placeholder="Surname" id="surname" />
+                            <input type="text" className="field-signup" placeholder="Surname" id="surname"  />
                 <label style={{ color: 'red', fontSize: '12px', paddingLeft: '10px' }} htmlFor="surname" id="surnameMessage"></label> <br />
 
-                <input type="text" className="field-signup" placeholder="Email" id="email" />
+                            <input type="text" className="field-signup" placeholder="Email" id="email"  />
                 <label style={{ color: 'red', fontSize: '12px', paddingLeft: '10px' }} htmlFor="email" id="emailMessage"></label> <br />
 
 
-                <input type="password" className="field-signup" placeholder="Password" id="password" />
+                            <input type="password" className="field-signup" placeholder="Password" id="password"  />
                 <label style={{ color: 'red', fontSize: '12px', paddingLeft: '10px' }} htmlFor="password" id="passwordMessage"></label> <br />
 
 
@@ -116,7 +128,7 @@ export class SignUp extends Component {
                 <label style={{ color: 'red', fontSize: '12px', paddingLeft: '10px' }} htmlFor="confirmpassword" id="confirmpasswordMessage"></label> <br />
 
 
-                <input type='submit' value="SignUp" className='submit-btn-signup'/>
+                            <input type='submit' value="SignUp" className='submit-btn-signup'  />
                 <div className="login-link">
                  Already a member..? <a href ="/login">LogIn</a>
                 </div>

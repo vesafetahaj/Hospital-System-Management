@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Web.Http.Cors;
 
 namespace Hospital_System
 {
@@ -35,6 +36,9 @@ namespace Hospital_System
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
+            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
+            
+            
 
             app.MapControllerRoute(
             name: "default",
