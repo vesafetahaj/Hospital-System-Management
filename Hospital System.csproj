@@ -15,19 +15,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="6.0.13" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="Controllers\NewFolder\**" />
+    <Compile Remove="NewFolder1\**" />
     <Content Remove="$(SpaRoot)**" />
+    <Content Remove="Controllers\NewFolder\**" />
+    <Content Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="Controllers\NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
     <None Remove="$(SpaRoot)**" />
+    <None Remove="Controllers\NewFolder\**" />
+    <None Remove="NewFolder1\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\NewFolder\" />
-    <Folder Include="Models\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

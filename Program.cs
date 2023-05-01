@@ -1,5 +1,7 @@
+using Hospital_System.Database_Connection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -13,9 +15,15 @@ namespace Hospital_System
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddControllers().AddNewtonsoftJson();
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<DBConnection>(optins => optins.UseSqlServer(
+                builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            
 
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -29,24 +37,13 @@ namespace Hospital_System
             app.UseRouting();
 
             app.MapControllerRoute(
-                name: "Administrator",
-                pattern: "Administrator/{action=AdministratorIndex}/{id?}",
-                defaults: new { controller = "Administrator" });
+            name: "default",
+            pattern: "{controller}/{action=Index}/{id?}");
 
             app.MapControllerRoute(
-                name: "Doctor",
-                pattern: "Doctor/{action=Index}/{id?}",
-                defaults: new { controller = "Doctor" });
-
-            app.MapControllerRoute(
-                name: "Patient",
-                pattern: "Patient/{action=Index}/{id?}",
-                defaults: new { controller = "Patient" });
-
-            app.MapControllerRoute(
-                name: "Receptionist",
-                pattern: "Receptionist/{action=Index}/{id?}",
-                defaults: new { controller = "Receptionist" });
+            name: "User",
+            pattern: "api/[controller]/{action=Index}/{id?}",
+            defaults: new { controller = "User" });
 
             app.MapFallbackToFile("index.html");
 

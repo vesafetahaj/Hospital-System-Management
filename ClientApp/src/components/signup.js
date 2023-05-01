@@ -1,7 +1,12 @@
 import React, { Component, Fragment } from 'react';
 import './signup.css';
 import FooterPage from './footer';
+
+
+
+
 export class SignUp extends Component {
+
     handleSubmitSignUp = (event) => {
         event.preventDefault();
         const email = event.target.email.value;
@@ -9,6 +14,8 @@ export class SignUp extends Component {
         const name = event.target.name.value;
         const surname = event.target.surname.value;
         const confirmPassword = event.target.confirmpassword.value;
+
+        
 
         var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         var pswRegex = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$/;
@@ -79,6 +86,8 @@ export class SignUp extends Component {
         }
         // Submit the form
         console.log('Submitting form');
+
+
     }
 
     render() {
@@ -86,7 +95,7 @@ export class SignUp extends Component {
             <Fragment>
                 <div className='background-img-signup'>
         <div className='signup-wrapper'>
-            <form action='' className='signup-form' onSubmit={this.handleSubmitSignUp}>
+            <form action='' className='signup-form' onSubmit={this.handleSubmitSignUp} method='POST'>
                 <img src='user.png' alt='' />
                 <h2 className='h2-signup'>SignUp</h2>
                 <input type="text" className="field-signup" placeholder="Name" id="name" />
