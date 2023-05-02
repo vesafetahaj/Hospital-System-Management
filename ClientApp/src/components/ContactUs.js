@@ -1,11 +1,14 @@
 import React, { Component, Fragment } from 'react';
 import './contact.css';
 import FooterPage from './footer';
+import { Helmet } from 'react-helmet';
 export class ContactUs extends Component {
     render() {
         return (
             <Fragment>
-
+                <Helmet>
+                    <title>Contact Us - SunriseCare Hospital</title>
+                </Helmet>
                 <div className="container-contactus">
 
                     <span class="big-circle"></span>

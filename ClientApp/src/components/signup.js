@@ -1,7 +1,9 @@
 import React, { Component, Fragment, useState } from 'react';
 import './signup.css';
 import FooterPage from './footer';
-import axios from "axios";
+import axios from "axios"; 
+import { Helmet } from 'react-helmet';
+
 
 export class SignUp extends Component {
 
@@ -84,6 +86,7 @@ export class SignUp extends Component {
         }
         // Submit the form
         console.log('Submitting form');
+        //e lidh front end me back end funksionet
         if (emailMsg.innerText === "" && passwordMsg.innerText === "" && nameMsg.innerText === "" && surnameMsg.innerText === "" && confirmMsg.innerText === "") {
             try {
                 const response = await axios.post('/api/User', {
@@ -95,6 +98,7 @@ export class SignUp extends Component {
                 console.log(response.data); // server response
                 // Optionally redirect to a success page
                 //window.location.href = "/success";
+                alert('Signed Up Successfully!');
             } catch (error) {
                 console.error(error); // handle error
             }
@@ -105,6 +109,9 @@ export class SignUp extends Component {
     render() {
         return (
             <Fragment>
+                <Helmet>
+                    <title>Sign Up - SunriseCare Hospital</title>
+                </Helmet>
                 <div className='background-img-signup'>
         <div className='signup-wrapper'>
             <form action='' className='signup-form' onSubmit={this.handleSubmitSignUp} method='POST'>

@@ -1,9 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import './login.css';
 import FooterPage from './footer';
+import axios from "axios"; 
+import { Helmet } from 'react-helmet';
 
 export class LogIn extends Component {
-    handleSubmit = (event) => {
+    handleSubmit = async (event) => {
         event.preventDefault();
         const email = event.target.email.value;
         const password = event.target.password.value;
@@ -36,10 +38,27 @@ export class LogIn extends Component {
 
         // Submit the form
         console.log('Submitting form');
+        if (emailMsg.innerText === "" && passwordMsg.innerText === "") { 
+            try {
+                const response = await axios.post('/api/Login', {
+                    Email: email,
+                    Password: password
+                });
+                window.location.replace('/');
+                
+            } catch (error) {
+                window.location.replace('/notification');
+                // Handle login error
+                }
+        }
+        
     }
     render() {
         return (
             <Fragment>
+                <Helmet>
+                    <title>Log In - SunriseCare Hospital</title>
+                </Helmet>
                 <div className='background-img-login'>
         <div className='login-wrapper'>
             <form action='' className='login-form' onSubmit={this.handleSubmit} method='POST'>

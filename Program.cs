@@ -18,10 +18,21 @@ namespace Hospital_System
             // Add services to the container.
             builder.Services.AddControllers().AddNewtonsoftJson();
             builder.Services.AddControllersWithViews();
+            //database
             builder.Services.AddDbContext<DBConnection>(optins => optins.UseSqlServer(
                 builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            
+            //identities
+            //builder.Services.AddIdentity<>
+
+            builder.Services.AddDistributedMemoryCache();
+
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
 
             var app = builder.Build();
 
@@ -37,8 +48,11 @@ namespace Hospital_System
             app.UseStaticFiles();
             app.UseRouting();
             EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
-            
-            
+
+            app.UseAuthorization();
+
+            app.UseSession();
+
 
             app.MapControllerRoute(
             name: "default",
@@ -48,6 +62,11 @@ namespace Hospital_System
             name: "User",
             pattern: "api/[controller]/{action=Index}/{id?}",
             defaults: new { controller = "User" });
+
+            app.MapControllerRoute(
+            name: "Login",
+            pattern: "api/[controller]/{action=Index}/{id?}",
+            defaults: new { controller = "Login" });
 
             app.MapFallbackToFile("index.html");
 

@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './sherbimet.css';
 import FooterPage from './footer';
-
+import { Helmet } from 'react-helmet';
 
 export class Sherbimet extends Component {
     constructor(props) {
@@ -164,6 +164,10 @@ export class Sherbimet extends Component {
 
         return (
             <Fragment>
+
+                <Helmet>
+                <title>Services - SunriseCare Hospital</title>
+                </Helmet>
                 <div className='sherbimet-container'>
                     <h1>SHERBIMET MJEKESORE</h1>
                 </div>

@@ -6,7 +6,7 @@ using System.Data;
 
 namespace Hospital_System.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] 
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -86,7 +86,7 @@ namespace Hospital_System.Controllers
                     myCommand.Parameters.AddWithValue("@Surname", u.Surname);
                     myCommand.Parameters.AddWithValue("@Email", u.Email);
                     myCommand.Parameters.AddWithValue("@Password", u.Password);
-                    
+                    //rolin
                     myReader = myCommand.ExecuteReader();
                     table.Load(myReader);
                     myReader.Close();

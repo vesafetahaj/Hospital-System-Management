@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import './aboutus.css';
 import FooterPage from './footer';
+import { Helmet } from 'react-helmet';
 
 const MovingNumbers = ({ startNumber, endNumber, duration }) => {
     const [number, setNumber] = useState(startNumber);
@@ -61,6 +62,9 @@ export class AboutUs extends Component {
         return (
             
             <Fragment>
+                <Helmet>
+                    <title>About Us - SunriseCare Hospital</title>
+                </Helmet>
                 <div className='aboutus'>
                     <video src="Possible-3x1.mp4" id='aboutusvid' autoPlay loop muted />
                     <h2 id='sunriseabout'>About SunRiseCare Hospital</h2>

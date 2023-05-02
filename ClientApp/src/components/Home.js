@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './Home.css';
 import FooterPage from './footer';
-
+import { Helmet } from 'react-helmet';
 
 export class Home extends Component {
   static displayName = Home.name;
@@ -9,6 +9,9 @@ export class Home extends Component {
   render() {
       return (
           <Fragment >
+              <Helmet>
+                <title>Home - SunriseCare Hospital</title>
+              </Helmet>
           <div className='home-container'>
               <video src="videoHome.mp4" autoPlay loop muted />
               <h1><span>SunRiseCare Hospital</span></h1>

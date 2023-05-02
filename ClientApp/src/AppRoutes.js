@@ -4,7 +4,7 @@ import { Home } from "./components/Home";
 import { AboutUs } from './components/aboutus';
 import { LogIn } from './components/login';
 import { SignUp } from './components/signup';
-
+import { Notification } from './components/Notification';
 
 const AppRoutes = [
   {
@@ -31,6 +31,11 @@ const AppRoutes = [
     {
         path: "/signup",
         element: <SignUp />
+
+    },
+    {
+        path: "/notification",
+        element: <Notification />
 
     }
 
