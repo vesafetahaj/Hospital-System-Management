@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "https://localhost:44447",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\Admin\\source\\repos\\hospital\\Hospital-System-Management\\ClientApp\\",
+"WorkingDirectory": "C:\\Users\\fursine\\source\\repos\\hospital\\Hospital-System-Management\\ClientApp\\",
 "MaxTimeoutInSeconds": "120"
 }
 }

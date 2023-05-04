@@ -74,7 +74,7 @@ namespace Hospital_System.Controllers
         {
             string query = @"update Pacienti 
                             set Emri = @Emri, Mbiemri = @Mbiemri, Datelindja = @Datelindja,
-                            Numri i telefonit = @Numri_i_telefonit, Qyteti = @Qyteti, Shteti = @Shteti
+                            Numri_i_telefonit = @Numri_i_telefonit, Qyteti = @Qyteti, Shteti = @Shteti
                             where PacientiId = @PacientiId";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("DefaultConnection");
