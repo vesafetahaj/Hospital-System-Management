@@ -11,7 +11,7 @@ namespace Hospital_System.Database_Connection
 
 
         public DbSet<User> Users { get; set; }
-        public DbSet<Pacienti> Pacienti { get; set; } 
+       // public DbSet<Pacienti> Pacienti { get; set; } 
 
 
     }

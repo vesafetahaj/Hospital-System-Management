@@ -11210,24 +11210,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\hospital\\Hospital-System-Management\\Hospital Systemm.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Hospital LAB1\\Hospital System LAB1\\Hospital Systemm.csproj",
       "projectName": "Hospital Systemm",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\hospital\\Hospital-System-Management\\Hospital Systemm.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\hospital\\Hospital-System-Management\\obj\\",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\Hospital LAB1\\Hospital System LAB1\\Hospital Systemm.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\Hospital LAB1\\Hospital System LAB1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11235,7 +11230,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11324,7 +11318,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },

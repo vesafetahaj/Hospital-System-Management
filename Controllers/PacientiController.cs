@@ -42,7 +42,7 @@ namespace Hospital_System.Controllers
 
         public JsonResult Post(Pacienti p)
         {
-            string query = @"INSERT INTO Pacienti (Emri, Mbiemri, Datelindja, Numri_i_telefonit, Qyteti, Shteti) VALUES (@Emri, @Mbiemri, @Datelindja, @Numri_i_telefonit, @Qyteti, @Shteti)";
+            string query = @"INSERT INTO Pacienti (PacientiID, Emri, Mbiemri, Datelindja, Numri_i_telefonit, Qyteti, Shteti) VALUES (@PacientiID,@Emri, @Mbiemri, @Datelindja, @Numri_i_telefonit, @Qyteti, @Shteti)";
 
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("DefaultConnection");
@@ -52,7 +52,7 @@ namespace Hospital_System.Controllers
                 myCon.Open();
                 using (SqlCommand myCommand = new SqlCommand(query, myCon))
                 {
-
+                    myCommand.Parameters.AddWithValue("@PacientiId", p.PacientiId);
                     myCommand.Parameters.AddWithValue("@Emri", p.Emri);
                     myCommand.Parameters.AddWithValue("@Mbiemri", p.Mbiemri);
                     myCommand.Parameters.AddWithValue("@Datelindja", p.Datelindja);
