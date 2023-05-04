@@ -73,6 +73,11 @@ namespace Hospital_System
             pattern: "api/[controller]/{action=Index}/{id?}",
             defaults: new { controller = "Contact" });
 
+            app.MapControllerRoute(
+            name: "Pacienti",
+            pattern: "api/[controller]/{action=Index}/{id?}",
+            defaults: new { controller = "Pacienti" });
+
             app.MapFallbackToFile("index.html");
 
             app.UseEndpoints(endpoints =>
